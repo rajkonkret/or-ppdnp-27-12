@@ -20,4 +20,17 @@ print(temp)  # (36, 6)
 print(tupla2.count("Tomek"))  # 1
 print(tupla2.index("Tomek"))  # 0
 
+a, b = 1, 2
+# a, b = 1, 2, 3  # ValueError: too many values to unpack (expected 2)
 
+a, *b = 1, 2, 3  # * - worek na pozostałe dane
+print(a, b)  # 1 [2, 3]
+
+imie1, *imie2, imie3 = tupla2
+print(imie1, imie2, imie3)  # Tomek ['Radek', 'Zenek', 'Marek'] Marta
+
+*imie1, imie2, imie3 = tupla2
+print(imie1, imie2, imie3)  # ['Tomek', 'Radek', 'Zenek'] Marek Marta
+
+imie1, imie2, *imie3 = tupla2
+print(imie1, imie2, imie3)  # Tomek Radek ['Zenek', 'Marek', 'Marta']
