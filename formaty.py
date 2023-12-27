@@ -24,3 +24,22 @@ print("Witaj {}, masz teraz {} lat".format(user, wiek))  # Witaj Tomek, masz ter
 print(f"Witaj {user}, masz teraz {wiek} lat.")
 # f - fstring - tekst sformatowany
 # hackerrank
+
+print("Uzywamy pythona w wersji %i" % 3)
+print("Uzywamy pythona w wersji %f" % 3.11)  # Uzywamy pythona w wersji 3.110000
+print("Uzywamy pythona w wersji %.1f" % 3.11)  # Uzywamy pythona w wersji 3.1
+print("Uzywamy pythona w wersji %.2f" % 3.11)  # Uzywamy pythona w wersji 3.11
+print("Uzywamy pythona w wersji %.2f" % 3.9999)  # Uzywamy pythona w wersji 4.00
+print("Uzywamy pythona w wersji %.2f" % 3.16888)  # Uzywamy pythona w wersji 3.17
+print("Uzywamy pythona w wersji %.2f" % -3.9999)  # Uzywamy pythona w wersji -4.00
+# zaokrągla ale tylko przy wypisywaniu
+x = 3.14
+print("Zero miejsc po przecinku %.f" % x)  # .f - zero miejsc po przecinku to samo .0f
+print("X=", x)
+# Zero miejsc po przecinku 3
+# X= 3.14
+a = round(x)  # zaokrąglanie wartość
+print("a=", a)  # a= 3
+c, u = divmod(x, 1)
+print(c, u)  # 3.0 0.14000000000000012
+# 13:30
