@@ -19,6 +19,24 @@ print("14" + "34")  # 1434
 # print(14 + "34")  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
 # silne typowanie, sam nie zamienia typów
 # int() - rzutowanie na liczby
-print(int(14) + int(34))  # 48
+print(int("14") + int("34"))  # 48
 # str() - zamiana na string
 print(str(14) + "34")  # 1434
+
+# zmienna - pudełko na dane
+imie = "Radek"
+# wypisanie zawartość zmiennej
+print(imie)  # Radek
+print(type(imie))  # <class 'str'>
+imie = 39
+print(imie)
+print(type(imie))  # <class 'int'>
+imie = "Tomek"
+print(type(imie))  # <class 'str'>
+# print(imie + 12)  # TypeError: can only concatenate str (not "int") to str
+# print(int(imie) + 12)  # ValueError: invalid literal for int() with base 10: 'Tomek'
+print(imie * 12)  # TomekTomekTomekTomekTomekTomekTomekTomekTomekTomekTomekTomek
+# ctrl / - komentarz w linii w której znajduje się kursor
+
+wiek = 48  # int
+print(wiek + 12)  # 60
