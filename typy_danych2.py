@@ -69,3 +69,24 @@ print(lista)  # ['Marcin', 'Maciek', 'Mikołaj', 'Jaśko', 'Radek']
 print("Radek" in lista)  # True
 # lista.remove("Adam")  # ValueError: list.remove(x): x not in list
 print(lista.count("Radek"))  # 1
+
+a = 1
+b = 3
+a = b  # nadpisane a
+print(a)  # 3
+a = 7
+print(b)  # 3
+
+lista2 = lista  # kopia referencji (kopia adresu pamięci)
+print(lista2)
+print(lista)
+lista3 = lista.copy()  # kopia elemntów listy do nowej listy
+lista2.clear()  # usuniecie elemntów z listy
+print(lista2)  # []
+print(lista)  # []
+print(lista3)  # ['Marcin', 'Maciek', 'Mikołaj', 'Jaśko', 'Radek']
+# id() - adres pamieci dla listy
+print(id(lista))  # 2284422746496
+print(id(lista2))  # 2284422746496
+print(id(lista3))  # 2896029266432
+# 15:00
