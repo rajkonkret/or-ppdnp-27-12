@@ -23,3 +23,4 @@ print("Witaj {}, masz teraz {} lat".format(user, wiek))  # Witaj Tomek, masz ter
 
 print(f"Witaj {user}, masz teraz {wiek} lat.")
 # f - fstring - tekst sformatowany
+# hackerrank
