@@ -128,6 +128,8 @@ lista2 = [tekst]  # odpowiednik append
 print(lista2)  # ['Python']
 
 print(lista1 + lista2)  # ['P', 'y', 't', 'h', 'o', 'n', 'Python']
+# print(lista1 - lista2)  # TypeError: unsupported operand type(s) for -: 'list' and 'list'
+
 
 # krotka - tupla
 krotka = tuple(lista1)
