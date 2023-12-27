@@ -43,3 +43,19 @@ print("a=", a)  # a= 3
 c, u = divmod(x, 1)
 print(c, u)  # 3.0 0.14000000000000012
 # 13:30
+
+# wersja = 3.1100001  # float - liczby zmiennoprzecinkowe
+print(f"Używamy wersji Pythona {wersja}")  # Używamy wersji Pythona 3.1100001
+print(f"Używamy wersji Pythona {wersja:.1f}")  # Używamy wersji Pythona 3.1
+print(f"Używamy wersji Pythona {wersja:.0f}")  # Używamy wersji Pythona 3
+
+print(f"{user:>10}")  # "     Tomek" wyrównaj do prawej
+print(f"{user:>4}")  # "Tomek" wyrównaj do prawej
+print(f"{user:<30}")  # "Tomek                         " wyrównaj do lewej i długośc kolumny 30
+print(f"{user:^10}")  # "  Tomek   " - wyśrodkowie
+
+print(liczba)  # 134567890123
+print("Nasza duża liczba {:,}".format(liczba))  # Nasza duża liczba 134,567,890,123
+print(f"Nasza duża liczba {liczba:,}")  # Nasza duża liczba 134,567,890,123
+print(f"Nasza duża liczba {liczba:,}".replace(",", " "))  # Nasza duża liczba 134 567 890 123
+print(f"Nasza duża liczba {liczba:,}".replace(",", "."))  # Nasza duża liczba 134.567.890.123
