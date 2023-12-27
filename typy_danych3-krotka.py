@@ -20,6 +20,7 @@ print(temp)  # (36, 6)
 print(tupla2.count("Tomek"))  # 1
 print(tupla2.index("Tomek"))  # 0
 
+# rozpakowanie krotki
 a, b = 1, 2
 # a, b = 1, 2, 3  # ValueError: too many values to unpack (expected 2)
 
@@ -34,3 +35,7 @@ print(imie1, imie2, imie3)  # ['Tomek', 'Radek', 'Zenek'] Marek Marta
 
 imie1, imie2, *imie3 = tupla2
 print(imie1, imie2, imie3)  # Tomek Radek ['Zenek', 'Marek', 'Marta']
+
+lista = list(tupla3)
+print(lista)  # [43, 55, 22.34, 11, 200]
+print(type(lista))  # <class 'list'>
