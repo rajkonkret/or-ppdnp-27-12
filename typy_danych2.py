@@ -131,4 +131,4 @@ print(lista1 + lista2)  # ['P', 'y', 't', 'h', 'o', 'n', 'Python']
 
 # krotka - tupla
 krotka = tuple(lista1)
-print(krotka)  # ('P', 'y', 't', 'h', 'o', 'n')
+print(krotka)  # ('P', 'y', 't', 'h', 'o', 'n') # krotka
