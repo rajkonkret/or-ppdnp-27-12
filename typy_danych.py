@@ -52,4 +52,21 @@ print(bool(3.0 / 3))  # True
 print(0 / 3)
 print(bool(0 / 3))  # False
 
-#
+# operacje logiczne
+# and - i
+print(True and True)  # True
+print(False and True)  # False
+print(True and False)  # False
+print(False and False)  # False
+
+# or - lub
+print(True or True)  # True
+print(False or True)  # True
+print(True or False)  # True
+print(False or False)  # False
+
+# not - negacja
+print(not True)  # False
+print(not False)  # True
+
+print(not 5)  # False
