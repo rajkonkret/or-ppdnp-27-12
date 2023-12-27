@@ -90,3 +90,41 @@ print(id(lista))  # 2284422746496
 print(id(lista2))  # 2284422746496
 print(id(lista3))  # 2896029266432
 # 15:00
+
+liczby = [54, 999, 34, 22, 13.34, 687]
+# liczby = [54, 999, 34, 22, 13.34, 687, "A"]  # TypeError: '<' not supported between instances of 'str' and 'int'
+print(type(liczby))  # <class 'list'>
+liczby.sort()  # sortowanie listy
+print(liczby)  # [13.34, 22, 34, 54, 687, 999]
+
+lista_osoby = ['radek', 'ola']
+lista_osoby.sort()
+print(lista_osoby)  # ['ola', 'radek']
+
+liczby[3] = 6666
+# wypisac elemnty tel listy liczby po ujemnych indeksach
+# sprawdzic długośc listy
+print(liczby)  # [13.34, 22, 34, 6666, 687, 999]
+print(len(liczby))  # 6
+print(liczby[-1])  # 999
+print(liczby[-6])  # 13.34
+
+print(liczby[0:3])  # [6666, 687, 999]
+
+print(liczby[-3:])  # [6666, 687, 999]
+
+liczby.remove(34)
+print(liczby)  # [13.34, 22, 6666, 687, 999]
+
+print(liczby.pop(2))  # usunęliśmy 6666
+
+tekst = "Python"
+lista1 = list(tekst)  # rozpakowanie sekwencji, odpowiednik extends()
+print(lista1)  # ['P', 'y', 't', 'h', 'o', 'n']
+
+# lista2 = []
+# lista2.append(tekst)
+lista2 = [tekst]  # odpowiednik append
+print(lista2)  # ['Python']
+
+print(lista1 + lista2)  # ['P', 'y', 't', 'h', 'o', 'n', 'Python']
