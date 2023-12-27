@@ -45,7 +45,30 @@ tekst_format2 = f"\tMam n a imię {imie}\n i lubię pythona.\b"
 print(tekst_format2)
 # "	Mam n a imię Radek
 #  i lubię pythona"
+# \ - znak ucieczki - oznacze, ze nastepny po nim znak jest znakiem sterującym
 # \t - tabulator
 # \n - nowa linia
 # \b - backspace
 print("Radek \"tekst\"")  # Radek "tekst"
+
+starszy = "Witaj %s"
+# %s - w to miejsce oczekuje stringa
+print(starszy % imie)  # Witaj Radek : w miejsce %s podstawił zawartość zmiennej imie
+print("""
+Tekst
+    wielolinijkowy""")
+# "Tekst
+#     wielolinijkowy
+# "
+print('''
+Drugi tekst
+    wielolinijkowy''')
+# "Drugi tekst
+#     wielolinijkowy"
+"""
+Komentarz 
+wielolinijkowy"""
+
+'''
+Komentarz 
+wielolinijkowy'''
