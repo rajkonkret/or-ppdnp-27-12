@@ -1,6 +1,6 @@
-import random
+import random  # dodanie biblioteki do naszego projektu
 
-# random - słuzy do dziłań z liczbami pseudolosowymi
+# random - słuzy do działań z liczbami pseudolosowymi
 
 print(random.randint(1, 6))  # int 1..6
 print(random.random())  # 0.9994698872825422 float 0..0,999999
@@ -13,9 +13,9 @@ print(random.choice(lista))  # 34
 
 lista_lotto = list(range(1, 50))  # 1..49
 print(lista_lotto)
-wyn = random.choice(lista_lotto)
-lista_lotto.remove(wyn)
-print(wyn)
+wyn = random.choice(lista_lotto)  # zapisanie wylosowanej do zmiennej
+lista_lotto.remove(wyn)  # usunięcie wylosowanej z listy (z bębna losującego)
+print(wyn)  # wydrukowanie wylosowanej liczby
 wyn = random.choice(lista_lotto)
 lista_lotto.remove(wyn)
 print(wyn)
