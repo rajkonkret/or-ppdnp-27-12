@@ -17,3 +17,14 @@ for i in dictionary.items():
 
 for k, v in dictionary.items():
     print(k, "=>", v)  # imie => Radek
+
+dict2 = {'name': 'imie', 'company': 'Orange'}
+print(type(dict2))
+print(dict2)  # {'name': 'imie', 'company': 'Orange'}
+
+print({value: key for key, value in dict2.items()})  # {'imie': 'name', 'Orange': 'company'}
+d2 = {}
+for key, value in dict2.items():
+    d2[value] = key
+
+print(d2)  # {'imie': 'name', 'Orange': 'company'}
