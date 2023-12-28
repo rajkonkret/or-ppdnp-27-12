@@ -83,7 +83,7 @@ print(f"Wynik porównania {a} != {b}: {a != b}")  # czy różne
 # w zależosci czy prawidłowa czy nie wypisac odpowiedni komunikat
 
 odp = input("Podaj datę Chrztu Polski")
-if odp == '966':
+if odp.lower().replace(" ", "") == '966':
     print("Odpowiedź prawidłowa")
 else:
     print("Masz to w ksiązce na stronie 32")
