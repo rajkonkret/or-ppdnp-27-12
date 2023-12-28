@@ -12,6 +12,8 @@ print(type(tupla2))  # <class 'tuple'>
 tupla3 = 43, 55, 22.34, 11, 200
 print(tupla3)  # (43, 55, 22.34, 11, 200)
 print(type(tupla3))  # <class 'tuple'>
+print(43 in tupla3)  # True
+print(44 in tupla3)  # False
 
 temp = 36, 6
 print(type(temp))  # <class 'tuple'>
