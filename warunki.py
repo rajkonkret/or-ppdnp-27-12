@@ -63,4 +63,27 @@ print(lista_bledow)
 
 a = 14
 b = 3
-print(f"")
+print(f"Wynik porównania {a} > {b}: {a > b}")
+print(f"Wynik porównania {a} < {b}: {a < b}")
+print(f"Wynik porównania {a} >= {b}: {a >= b}")
+print(f"Wynik porównania {a} =< {b}: {a <= b}")
+print(f"Wynik porównania {a} == {b}: {a == b}")  # porównanie
+print(f"Wynik porównania {a} != {b}: {a != b}")  # czy różne
+# Wynik porównania 14 > 3: True
+# Wynik porównania 14 < 3: False
+# Wynik porównania 14 >= 3: True
+# Wynik porównania 14 =< 3: False
+# Wynik porównania 14 == 3: False
+# Wynik porównania 14 != 3: True
+
+# zrobic program test z....
+# wypisac pytanie
+# pobrac odpowiedź
+# sprawdzic odpowiedz
+# w zależosci czy prawidłowa czy nie wypisac odpowiedni komunikat
+
+odp = input("Podaj datę Chrztu Polski")
+if odp == '966':
+    print("Odpowiedź prawidłowa")
+else:
+    print("Masz to w ksiązce na stronie 32")
