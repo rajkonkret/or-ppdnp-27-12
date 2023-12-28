@@ -25,3 +25,23 @@ for i in range(6):  # 0..5
 # 31 17 40 35 8 13
 print()  # dodanie pustej lini, znak konca lini ustawiony na \n
 print("Dalsza część programu")
+
+for i in range(10):
+    if i % 2 == 0:
+        print(i, "liczba parzysta")
+# Dalsza część programu
+# 0 liczba parzysta
+# 2 liczba parzysta
+# 4 liczba parzysta
+# 6 liczba parzysta
+# 8 liczba parzysta
+
+lista3 = [j for j in range(10) if j % 2 == 0]
+print(lista3)  # [0, 2, 4, 6, 8]
+
+lista4 = []
+for j in range(10):
+    if j % 2 == 0:
+        lista4.append(j)
+
+print(lista4)  # [0, 2, 4, 6, 8]
