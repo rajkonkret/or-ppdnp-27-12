@@ -21,7 +21,7 @@ for k, v in dictionary.items():
 dict2 = {'name': 'imie', 'company': 'Orange'}
 print(type(dict2))
 print(dict2)  # {'name': 'imie', 'company': 'Orange'}
-
+# zamiana w słowniku kluczy z wartościami
 print({value: key for key, value in dict2.items()})  # {'imie': 'name', 'Orange': 'company'}
 d2 = {}
 for key, value in dict2.items():
