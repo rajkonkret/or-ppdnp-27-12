@@ -37,3 +37,4 @@ rabat = 25 if suma_zam > 150 else 0
 
 print(f"Rabat wynosi {rabacik}")
 print(f"Rabat wynosi {rabat}")
+# 11:30
