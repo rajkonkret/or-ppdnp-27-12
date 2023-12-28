@@ -37,3 +37,4 @@ print(random.sample(lista_lotto, 6))  # [16, 37, 15, 46, 47, 27] losuje bez powt
 print(random.sample(lista_lotto, k=6))  # [10, 42, 8, 41, 24, 13] losuje bez powtórzeń
 k = 3
 print(random.sample(lista_lotto, k=k))  # [8, 49, 21]
+# 13:25
