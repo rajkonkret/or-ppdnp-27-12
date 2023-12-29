@@ -40,3 +40,5 @@ while True:
         print("Bład", e)
     finally:  # wykonuje się zawsze
         print("Zakońćzone obliczenia")
+# eval() eval()	Evaluates and executes an expression
+print(eval("2 + 2"))
