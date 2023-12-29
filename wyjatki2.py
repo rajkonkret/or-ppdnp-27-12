@@ -10,6 +10,8 @@ while True:
     print("""
     1. Dodawanie
     2. Odejmowanie
+    3. Mnożenie
+    4. Dzielenie
     5. Koniec
     """)
     odp = input("Podaj operację do wykonania")
@@ -22,5 +24,11 @@ while True:
 
     if odp == "1":
         print(f"Wynik dodawania {a} + {b} = {a + b}")
+    elif odp == "2":
+        print(f"Wynik odejmowania {a} - {b} = {a - b}")
+    elif odp == "3":
+        print(f"Wynik mnożenia {a} * {b} = {a * b}")
+    elif odp == "2":
+        print(f"Wynik dzielenia {a} / {b} = {a / b}")
     else:
         print("Nie znam takiego działania")
