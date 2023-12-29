@@ -28,7 +28,7 @@ while True:
             print(f"Wynik odejmowania {a} - {b} = {a - b}")
         elif odp == "3":
             print(f"Wynik mnożenia {a} * {b} = {a * b}")
-        elif odp == "2":
+        elif odp == "4":
             print(f"Wynik dzielenia {a} / {b} = {a / b}")
         else:
             print("Nie znam takiego działania")
