@@ -16,3 +16,11 @@ while True:
 
     if odp == "5":
         break
+
+    a = int(input("Podaj pierwszą liczbę"))
+    b = int(input("Podaj drugą liczbę"))
+
+    if odp == "1":
+        print(f"Wynik dodawania {a} + {b} = {a + b}")
+    else:
+        print("Nie znam takiego działania")
